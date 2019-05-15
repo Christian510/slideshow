@@ -1,0 +1,23 @@
+#slide-three {
+    background-image: url(../../../assets/SlideImages/placeholder3.png);
+}
+
+.hero{
+    width: 100%;
+    /* height: 200px; */
+
+}
+
+.flex-ctr-col{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+#shopNow{
+    width: 150px;
+    height: 150px;
+}
