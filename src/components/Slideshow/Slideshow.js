@@ -15,7 +15,8 @@ class Slideshow extends Component {
                 <SlideOne />, <SlideTwo />, <SlideThree />
             ],
             
-            currentSlide: 0 };
+            currentSlide: 0 
+        };
 
         this.interval = null;
 
@@ -38,12 +39,10 @@ class Slideshow extends Component {
 
     render() {
 
-        
-        const src = this.state.SLIDES[this.state.currentSlide];
-        // const style = 
+        const slide = this.state.SLIDES[this.state.currentSlide];
         return (
             <div>
-                {src}
+                {slide}
             </div>
         );
     }
