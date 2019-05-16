@@ -38,8 +38,9 @@ class Slideshow extends Component {
 
     render() {
 
-        console.log(this.state.SLIDES[0])
-        let src = this.state.SLIDES[this.state.currentSlide];
+        
+        const src = this.state.SLIDES[this.state.currentSlide];
+        // const style = 
         return (
             <div>
                 {src}
