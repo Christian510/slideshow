@@ -1,5 +1,5 @@
 import React from 'react';
-import './SlideTwo.css';
+import './SlideOne.css';
 import ImageTwo from '../../../assets/SlideImages/placeholder2.png';
 
 const SlideTwo = props => {

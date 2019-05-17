@@ -3,8 +3,11 @@ import React, { Component } from 'react';
 import SlideOne from  '../Slides/SlideOne/SlideOne';
 import SlideTwo from '../Slides/SlideTwo/SlideTwo';
 import SlideThree from  '../Slides/SlideThree/SlideThree';
+// import SlideFour from  '../Slides/SlideFour/SlideFour';
+// import SlideFive from  '../Slides/SlideFive/SlideFive';
+// import SlideSix from  '../Slides/SlideSix/SlideSix';
 
-// const SLIDES = [SlideOne, SlideTwo, SlideThree]
+
 
 class Slideshow extends Component {
     constructor(props) {
@@ -14,7 +17,6 @@ class Slideshow extends Component {
             SLIDES: [
                 <SlideOne />, <SlideTwo />, <SlideThree />
             ],
-            
             currentSlide: 0 
         };
 
@@ -25,7 +27,8 @@ class Slideshow extends Component {
 
     nextSlide() {
         let current = this.state.currentSlide;
-        let next = ++current % this.state.SLIDES.length; //this is smart way to get current to be index 0 again if it reached the end to the array...
+
+        let next = ++current % this.state.SLIDES.length;
         this.setState({ currentSlide: next });
     }
 
@@ -38,7 +41,7 @@ class Slideshow extends Component {
     }
 
     render() {
-
+   
         const slide = this.state.SLIDES[this.state.currentSlide];
         return (
             <div>
