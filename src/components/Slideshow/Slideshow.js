@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
-import SlideOne from  '../Slides/SlideOne/SlideOne';
-import SlideTwo from '../Slides/SlideTwo/SlideTwo';
-import SlideThree from  '../Slides/SlideThree/SlideThree';
+import SlideOne from  '../DressCampaign/DressOne/DressOne';
+import SlideTwo from '../DressCampaign/DressTwo/DressTwo';
+import SlideThree from  '../DressCampaign/DressThree/DressThree';
 // import SlideFour from  '../Slides/SlideFour/SlideFour';
 // import SlideFive from  '../Slides/SlideFive/SlideFive';
 // import SlideSix from  '../Slides/SlideSix/SlideSix';
