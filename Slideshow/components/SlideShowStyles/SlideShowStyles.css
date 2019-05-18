@@ -6,11 +6,11 @@ img{
     height: auto;
 }
 
-/* .hero{
+.container{
+    position: relative;
     width: 100%;
-    height: auto;
 
-} */
+}
 
 .flex-ctr-col{
     display: flex;
@@ -21,10 +21,13 @@ img{
 	align-content: stretch;
 }
 
-#shopNow{
-    position: absolute;
+.shopNow{
     width: 150px;
     height: 150px;
+}
+
+.button{
+   
 }
 
 *{

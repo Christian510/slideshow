@@ -1,16 +1,17 @@
 import React from 'react';
 import '../../SlideShowStyles/SlideShowStyles.css';
+import './DressOne.css';
 import ImageOne from '../../../assets/DressImages/placeholder1.png';
 
 const DressOne = props => {
 
     return (
-        <div className="hero flex-ctr-col" >
-            <img src={ImageOne} alt="fashion"></img>
-            <div id="shopNow">
+        <div className="container flex-ctr-col" >
+            <a href=""><img src={ImageOne} alt="fashion"></img></a>
+            <div id="position-1" className="shopNow">
                 <h1>This is a Title</h1>
                 <h3>This is sub-text</h3>
-                <button>Shop Now</button>
+                <a id="btn-style-dressOne">Shop Now</a>
             </div>
         </div>
     );

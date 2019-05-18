@@ -14,9 +14,7 @@ class Slideshow extends Component {
         super(props);
 
         this.state = { 
-            SLIDES: [
-                <SlideOne />, <SlideTwo />, <SlideThree />
-            ],
+            SLIDES: props.slides,
             currentSlide: 0 
         };
 
